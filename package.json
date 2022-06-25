@@ -1,0 +1,22 @@
+{
+  "name": "async-api",
+  "version": "1.0.0",
+  "description": "Api practica",
+  "type": "module",
+
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js",
+    "fetch": "node challenge.js"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "yeimar",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.6",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
